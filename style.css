@@ -1,0 +1,639 @@
+/*U&M Paper Stylesheet*/
+
+/*
+    Designed By: - Upkar Dahiya & Manpreet Singh
+    Date : - 11/03/2017(Saturday)
+*/
+
+
+/*mySidenav*/
+
+#mySidenav a {
+    position: fixed; 
+    right: -185px; 
+    transition: 0.3s; 
+    padding: 10px; 
+    width: 190px; 
+    text-decoration: none; 
+    font-size: 20px;
+    color: black; 
+    border-radius: 5px 0px 0px 5px; 
+}
+
+#mySidenav a:hover {
+    right: 0; 
+}
+
+
+#about {
+    top: 70px;
+    background-color: ghostwhite;
+}
+
+/*mySidenav2*/
+
+#mySidenav2 a {
+    position: fixed; 
+    right: -185px; 
+    transition: 0.3s; 
+    padding: 10px; 
+    width: 190px; 
+    text-decoration: none; 
+    font-size: 20px;
+    color: black; 
+    border-radius: 5px 0px 0px 5px; 
+}
+
+#mySidenav2 a:hover {
+    right: 0; 
+}
+
+
+#about2 {
+    top: 140px;
+    background-color: ghostwhite;
+}
+
+/*Overlay of SighUp*/
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button {
+    background-color: ghostwhite; 
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -8px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.containerpro button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {float:left;width:50%}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+
+/*Overlay of Sign in */
+
+#overlay2 {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button2 {
+    background-color: ghostwhite; 
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -8px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button2:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn2 {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer2 {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar2 {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container2 {
+    padding: 16px;
+}
+
+span.psw2 {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal2 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content2 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+/* The Close Button (x) */
+.close2 {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate2 {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw2 {
+       display: block;
+       float: none;
+    }
+    .cancelbtn2 {
+       width: 100%;
+    }
+}
+
+/*detail of datesheet*/
+
+#apple
+        {
+            width:100%;
+            position: absolute;
+      background: rgba(0,0,0,0.4);
+            display:none;color: aliceblue;margin-top:10%
+        }
+          #apple a
+          {
+              color: aliceblue
+          }
+          #cat
+        {
+            width:100%;
+            position: absolute;
+      background: rgba(0,0,0,0.4);
+            display:none;color: aliceblue;margin-top:10%
+        }
+          #cat a
+          {
+              color: aliceblue
+          }
+
+/*Body Tags*/
+body
+{
+    margin: 0px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: ghostwhite;
+}
+
+body nav ul li 
+{
+    display: inline;
+}
+
+body nav ul li a
+{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+
+body nav ul li a:hover
+{
+    background: gainsboro;
+}
+
+body nav ul
+{
+    padding: 15px;
+    margin: 0px;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: ghostwhite;
+}
+
+
+/*Header Tags*/
+
+header
+{
+    width: 100%;
+    height: 555px;
+    background-image: url("image1.jpg");
+    margin-top: 40px
+}
+
+
+
+header .symbol
+{
+    text-align: center;
+    padding-top: 450px;
+}
+
+header a:visited
+{
+    color: black;
+}
+
+header a:hover
+{
+    color:red;
+}
+
+/*Aside Tags*/
+
+aside img
+{
+    padding-top: 70px;
+    padding-left: 30px;
+}
+
+aside .blog
+{
+    margin-left: 450px;
+    word-spacing: normal;
+    letter-spacing: normal;
+    margin-top: -430px;
+    margin-bottom: 35px;
+}
+
+/*Div Trending Tags*/
+
+div .textalg
+{
+    text-align: center;
+}
+
+div .textalg a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/*Section Tags*/
+
+section 
+{
+    text-align: center;
+}
+
+section div
+{
+    padding: 15px;
+    font-size:18px;
+
+}
+
+
+
+section div span 
+{
+    display: inline-block;
+    padding: 50px;
+    margin-top: -55px;
+    
+}
+
+section .clr1
+{
+    background-color: darkorange;
+}
+
+section .clr2
+{
+    background-color:cornflowerblue;
+}
+
+section .clr3
+{
+    background-color: greenyellow;
+}
+
+section .clr4
+{
+    background-color: violet;
+}
+
+section div span 
+{
+    text-decoration: none;
+    color: black;
+}
+
+/*Article Tags*/
+#qwerty
+{
+    height:50%;
+    width:100%;
+}
+
+article .form
+{
+    width: 45%;
+    margin-top: 40px;
+}
+
+.w3-container w3-light-grey
+{
+   
+}
+
+#pading
+{
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+#mapss
+{
+    width: 45%;
+    margin-left: 50%;
+    margin-top: -49%;
+}
+
+
+/*User Profile Card*/
+
+.cardpro {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.containerpro {
+  padding: 0 16px;
+}
+
+.containerpro::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.titlepro {
+  color: grey;
+  font-size: 18px;
+}
+
+form button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+form buttonpro:hover, a:hover {
+  opacity: 0.7;
+}
+
+#Upkar
+{
+    margin-left: -800px;
+}
+
+#Manpreet
+{
+    margin-left: 800px;
+    margin-top: -665px;
+}
+/*Footer Tags*/
+
+footer
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer a:visited
+{
+    color: white;
+}
+footer a:hover
+{
+    color: red;
+}
+
+footer div a
+{
+    
+    text-decoration: none;
+}
+
+footer .tothetop a
+{
+    width: 150px;
+    height: 70px;
+    color: black;
+    background: ghostwhite;
+    padding: 15px;
+}
+
+footer .tothetop a:hover
+{
+    background-color: gainsboro;
+}
+
+footer .symbol 
+{
+    padding: 20px 4px 10px 4px;
+}
+
+footer .powerby 
+{
+    padding: 20px 10px 80px 10px;
+}
+
+

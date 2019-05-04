@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <script src="jquery-3.2.0.min.js">
+            
+        </script>
+    <title>U&M Paper(Question Bank for Computing Science)</title>
+<!--
+    Designed By: - Upkar Dahiya & Manpreet Singh
+    Date : - 11/03/2017(Saturday)
+-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="modernizr-1.5.js" type="text/javascript" ></script>
+    <script>
+        
+
+var modal = document.getElementById('id01');
+
+
+
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
+</script>
+    <script>
+// Get the modal
+var modal2 = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+}
+</script>
+      
+    <script>
+        $(document).ready(function(){
+        $("#orange").click(function(){
+        $("#apple").animate({
+            height:'toggle',opacity:'0.7'
+            
+            
+        });    
+        });
+        });
+    </script>
+        <script>
+        $(document).ready(function(){
+        $("#dog").click(function(){
+        $("#cat").animate({
+            height:'toggle',opacity:'0.7'
+            
+            
+        });    
+        });
+        });
+    </script>
+    </head>
+<body>
+        
+    <div id="overlay" onclick="off()"></div>    
+    
+    <div id="mySidenav" class="sidenav">
+            <a href="#" id="about"><button class="button" onclick="document.getElementById('id01').style.display='block'" ><i style="font-size:24px" class="fa">&#xf090;</i>Sign Up</button></a>
+        </div>    
+    <div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="container">
+      <label><b>Name</b></label>
+      <input type="text" placeholder="Enter Your Name" name="email" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <input type="checkbox" checked="checked"> Remember me
+      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+    <div id="overlay2" onclick="off()"></div>
+    <div id="mySidenav2" class="sidenav2">
+            <a href="#" id="about2"><button class="button2" onclick="document.getElementById('id02').style.display='block'" ><i style="font-size:24px" class="fa">&#xf090;</i>Sign In</button></a>
+        </div>
+    <div id="id02" class="modal2">
+  
+  <form class="modal-content animate2" action="/action_page.php">
+    <div class="imgcontainer2">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span>
+      <img src="avatar.png" alt="Avatar" class="avatar2">
+    </div>
+
+    <div class="container2">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container2" style="background-color:#f1f1f1">
+      <button type="button2" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn2">Cancel</button>
+      <span class="psw2">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+
+
+    <div id="overlay2" onclick="off()"></div>
+  
+        <nav>
+            <ul style="padding:20px; cursor:pointer;">
+                <li id="orange"><i class="fa fa-calendar" style="font-size:24px"></i> Datesheet</li>
+                <li id="dog" style="cursor:pointer"><i class="fa fa-book" style="font-size:24px"></i>Syllabus</li>
+                <li style="cursor:pointer"><i class="fa fa-newspaper-o" style="font-size:24px"></i> University News</li>
+                <li style="cursor:pointer"><i class="material-icons">group</i>ABOUT U&M-Paper</li>
+            </ul>
+        </nav>
+     <center>
+        <div id="apple">
+        
+            <H1>Datesheet</H1>
+            <center><a href="datesheet.pdf" download> BCS</a></center><br>
+            <center><a href="datesheet.pdf" download> IMDW</a></center><br>
+            <center><a href="datesheet.pdf" download> METY</a></center><br>
+            <center><a href="datesheet.pdf" download> AM</a></center><br>
+            </div></center>
+         <center>
+        <div id="cat">
+        
+            <H1>Syllabus</H1>
+            <center><a href=""> BCS</a></center><br>
+            <center><a href=""> IMDW</a></center><br>
+            <center><a href=""> METY</a></center><br>
+            <center><a href=""> AM</a></center><br>
+            </div></center>
+    <header>        
+        <div class="symbol">
+        <a href=""><i class="fa fa-twitter" style="font-size:36px"></i></a>
+        <a href=""><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+        <a href=""><i class="fa fa-instagram" style="font-size:36px"></i></a>
+        <a href=""><i class="fa fa-facebook-official" style="font-size:36px"></i></a>
+            </div>
+    </header>
+    <section>
+        <div >
+        <span class="clr1">Total Downloaded Papers<br>
+            <strong>4564646</strong></span>
+        <span class="clr2">Total Subjects Viewed<br><strong>4646</strong></span>
+        <span class="clr3">Total Students Online<br><strong>123</strong></span>
+        <span class="clr4">Total Students Registered<br><strong>15786</strong></span>
+        
+        </div>
+    </section>
+    
+    <div class="trending">
+    <span class="textalg"><h2><a href=""><i class="material-icons" style="font-size:36px">trending_up</i>Trending Topics Right Now<i class="material-icons" style="font-size:36px">trending_up</i></a></h2></span>
+    <span>
+        <pre>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </pre></span></div>
+    
+    <aside>
+        
+        <img src="blogimg.jpg" alt="U&M Papers">
+        <div class="blog">
+        <h1>Our Blog Updates</h1>
+        <p><strong>5 Things to think about the night before an EXAMINATION</strong></p>
+        <p><strong>Positive Imagery: </strong>Spend some time visualising a positive exam experience. This will increae your confidence, help with nerves and enhance your mood.</p>
+        <p><strong>Your best performance: </strong>Think about a previous good performance. What helped you do well that time and how you will apply that tomorrow.</p>
+        <p><strong>Your preparation: </strong>Boost you confidence by reminding yourself of how well you have prepared and how much revision you have done.</p>
+        <p><strong>Focus on you: </strong> Focus on yourself and don;t compare yourself to others as this will make you feel stressed.</p>
+        <p><strong>A Good night sleep: </strong>A good night sleep helps improve creativity. problem solving, concentration and memory. This is more important than last minute cramming.</p>
+            </div>
+    </aside>
+    
+    <article>
+        <div id="qwerty">
+        <div class="form">
+        <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Kamloops, BC</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +91-9803247001</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: dahiyaupkar@gmail.com</p>
+      <br>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+        <p>
+          <button class="w3-button w3-black" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+    </div>
+      </div>
+            </div>
+        </div>
+        <div id="mapss">
+      <center><div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13745.57844803577!2d75.9519651689437!3d30.538153188690675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391069a660696aef%3A0x3bc789e57615106b!2sChandigarh%2C+Punjab+148023!5e0!3m2!1sen!2sin!4v1489432232341" width="80%" height="510px" frameborder="0" style="border:0" allowfullscreen></iframe></div></center>
+            </div></div>
+
+    <div id="pading">
+        <h1 style="text-align:center">The Team</h1>
+        <h2 style="text-align:center">The ones who runs this company</h2>
+        <div id="Upkar">
+
+        <div class="cardpro">
+        <img src="team1.jpeg" alt="Upkar Dahiya" style="width:100%">
+        <div class="containerpro">
+        <h1>Upkar Dahiya</h1>
+        <p class="titlepro">CEO & Founder, U&M Paper's</p>
+        <p>Thompson River University</p>
+        <div style="margin: 24px 0;">
+        <a href="#"><i class="fa fa-dribbble"></i></a> 
+        <a href="#"><i class="fa fa-twitter"></i></a>  
+        <a href="#"><i class="fa fa-linkedin"></i></a>  
+        <a href="#"><i class="fa fa-facebook"></i></a> 
+        </div>
+        <p><button style="background:black;">Contact</button></p>
+        </div>
+        </div>
+            </div>
+        
+        <div id="Manpreet">
+
+        <div class="cardpro">
+        <img src="team2.jpg" alt="Manpreet Singh" style="width:100%">
+        <div class="containerpro">
+        <h1>Manpreet singh</h1>
+        <p class="titlepro">CO Partner, U&M Paper's</p>
+        <p>Thompson River University</p>
+        <div style="margin: 24px 0;">
+        <a href="#"><i class="fa fa-dribbble"></i></a> 
+        <a href="#"><i class="fa fa-twitter"></i></a>  
+        <a href="#"><i class="fa fa-linkedin"></i></a>  
+        <a href="#"><i class="fa fa-facebook"></i></a> 
+        </div>
+        <p><button style="background:black;">Contact</button></p>
+        </div>
+        </div>
+            </div>
+        </div>
+    </article>
+    
+    <footer>
+        <br>
+        <div class="tothetop">
+        <a href=""><i class="fa fa-arrow-up" style="font-size:18px"></i>To the top</a></div>
+        <br>
+        <div class="symbol">
+         <a href=""><i class="fa fa-twitter" style="font-size:26px"></i></a>
+        <a href=""><i class="fa fa-linkedin-square" style="font-size:26px"></i></a>
+        <a href=""><i class="fa fa-instagram" style="font-size:26px"></i></a>
+        <a href=""><i class="fa fa-facebook-official" style="font-size:26px"></i></a>
+        </div>
+        <br>
+        <div class="powerby">
+        Powered by <a href="">U&M Papers.com</a>
+            </div>
+    </footer>
+        
+    </body>
+</html>
